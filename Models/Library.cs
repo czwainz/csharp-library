@@ -29,7 +29,7 @@ namespace library.Models
     {
       for (int i = 0; i < CheckedOut.Count; i++)
       {
-        Console.WriteLine($"{i + 1} {CheckedOut[i].Title} - {CheckedOut[i].Author} is checked out");
+        Console.WriteLine($"{i + 1} {CheckedOut[i].Title} - {CheckedOut[i].Author}");
         Console.WriteLine();
       }
     }
